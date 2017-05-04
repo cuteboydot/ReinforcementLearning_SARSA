@@ -13,23 +13,22 @@ example : cliff walking problem
 <br>
 <img src="https://github.com/cuteboydot/ReinforcementLearning_SARSA/blob/master/statemap.png" />
 </br>
-s : start state  
-c : cliff  
-g : goal   
--1 : reward  
-g : goal  
--1 : reward  
-len(row) : 4, len(col) : 12  
-row_start : 3, col_start : 0  
-row_goal : 3, col_goal : 11
-action : 0(up), 1(left), 2(down), 3(left) 
+s : start state   
+c : cliff   
+g : goal    
+-1 : reward     
+g : goal    
+-1 : reward     
+len(row) : 4, len(col) : 12    
+row_start : 3, col_start : 0    
+row_goal : 3, col_goal : 11    
+action : 0(up), 1(left), 2(down), 3(left)    
 
 mu : learning rate  
 gamma : discount factor  
 R : reward map  
 A : possible action path  
 Q : Q(s,a) value map  
-<<<<<<< Updated upstream
 action : 0(up), 1(left), 2(down), 3(left)  
   
 Q(s,a) update : Q(s,a) <- Q(s,a) + mu(reward + gamma*Q(s',a') - Q(s,a))  
