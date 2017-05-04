@@ -34,4 +34,8 @@ action : 0(up), 1(left), 2(down), 3(left)
   
 Q(s,a) update : Q(s,a) <- Q(s,a) + mu(reward + gamma*Q(s',a') - Q(s,a))  
 
+- test result
 
+<br>
+<img src="https://github.com/cuteboydot/ReinforcementLearning_SARSA/blob/master/test_result.png" />
+</br>
