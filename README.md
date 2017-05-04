@@ -13,6 +13,7 @@ cuteboydot@gmail.com
 <br>
 <img src="https://github.com/cuteboydot/ReinforcementLearning_SARSA/blob/master/statemap.png" />
 </br>
+  
 - s : start state  
 - c : cliff  
 - g : goal   
