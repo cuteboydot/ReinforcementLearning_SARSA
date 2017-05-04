@@ -8,7 +8,7 @@ reference : http://www.cse.unsw.edu.au/~cs9417ml/RL1/algorithms.html
 example : cliff walking problem
 
 <br>
-<img src="https://github.com/cuteboydot/ReinforcementLearning_SARSA/blob/master/cliff.png" />
+<img height="200" src="https://github.com/cuteboydot/ReinforcementLearning_SARSA/blob/master/cliff.png" />
 </br>
 <br>
 <img src="https://github.com/cuteboydot/ReinforcementLearning_SARSA/blob/master/statemap.png" />
