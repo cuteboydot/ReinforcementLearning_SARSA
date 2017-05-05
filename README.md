@@ -8,10 +8,10 @@ cuteboydot@gmail.com
 - example : cliff walking problem
 
 <br>
-<img height="200" src="https://github.com/cuteboydot/ReinforcementLearning_SARSA/blob/master/cliff.png" />
+<img height="200" src="https://github.com/cuteboydot/ReinforcementLearning_SARSA/blob/master/img/cliff.png" />
 </br>
 <br>
-<img src="https://github.com/cuteboydot/ReinforcementLearning_SARSA/blob/master/statemap.png" />
+<img src="https://github.com/cuteboydot/ReinforcementLearning_SARSA/blob/master/img/statemap.png" />
 </br>
   
 s : start state  
