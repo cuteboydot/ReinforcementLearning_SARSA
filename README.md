@@ -41,6 +41,9 @@ Q(s,a) update : Q(s,a) <- Q(s,a) + mu(reward + gamma*Q(s',a') - Q(s,a))
 - code  
 
 ```python  
+'''''''''''''''''''''''''''''''''''''''''''''
+PARAMETER SETTING
+'''''''''''''''''''''''''''''''''''''''''''''
 import numpy as np
 
 row = 4
@@ -88,6 +91,9 @@ epochs = 500
 mu = 0.65
 gamma = 0.4
 epsilon = 0.05
+'''''''''''''''''''''''''''''''''''''''''''''
+END PARAMETER SETTING
+'''''''''''''''''''''''''''''''''''''''''''''
 
 def choose_action(R, A, Q, row, col):
     action_ret = -1
