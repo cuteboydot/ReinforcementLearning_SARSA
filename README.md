@@ -19,7 +19,7 @@ c : cliff
 g : goal   
 -1 : reward  
 g : goal  
--1 : reward  
+  
 len(row) : 4, len(col) : 12  
 row_start : 3, col_start : 0     
 row_goal : 3, col_goal : 11   
