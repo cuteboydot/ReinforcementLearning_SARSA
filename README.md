@@ -39,7 +39,7 @@ Q(s,a) update : Q(s,a) <- Q(s,a) + mu(reward + gamma*Q(s',a') - Q(s,a))
 <img height="700" src="https://github.com/cuteboydot/ReinforcementLearning_SARSA/blob/master/img/test_result.png" />
 </br>
 - code
-```
+```  
 import numpy as np
 
 '''''''''''''''''''''''''''''''''''''''''''''
