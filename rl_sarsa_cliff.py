@@ -72,7 +72,11 @@ def choose_action(R, A, Q, row, col):
 def get_next_pos(row, col, action) :
     row_next = 0
     col_next = 0
-
+    
+    # cliff case -> go to start
+    if (row == 3 and (col > 0 and col < 11)) :
+        return row_start, col_start
+    
     if (action == 0) :          # move up
         row_next = row-1
         col_next = col
